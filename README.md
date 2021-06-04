@@ -1,6 +1,6 @@
-# [GCP]Folders_Recursively
+# [GCP] Folders_Recursively
 
-<img src="https://download.logo.wine/logo/Google_Cloud_Platform/Google_Cloud_Platform-Logo.wine.png" width="600px">
+<img src="https://download.logo.wine/logo/Google_Cloud_Platform/Google_Cloud_Platform-Logo.wine.png" width="350px">
 
 
 ## Features
@@ -16,10 +16,11 @@ following roles:
 - `roles/resourcemanager.organizationViewer` on the organization level
 - `roles/resourcemanager.folderViewer` on the organization level
 
-#### <b>Ref. https://cloud.google.com/iam/docs/understanding-roles#resource-manager-roles</b>
+_reference: <https://cloud.google.com/iam/docs/understanding-roles#resource-manager-roles>_
 
 ### Example Result from CSV File
-
+```
 Folder_Name,Folder_ID</br>
 [ORGANIZATION_NAME],[ORGANIZATION_ID]</br>
 [FOLDER_NAME],[FOLDER_ID]
+```
