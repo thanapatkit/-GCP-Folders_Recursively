@@ -1,1 +1,17 @@
-# -GCP-Folders_Recursively
+# [GCP]Folders_Recursively
+
+Just fill in Organzation_ID on Google Cloud Platform
+
+Example Result
+Folder_Name,Folder_ID
+[ORGANIZATION_NAME],[ORGANIZATION_ID]
+Japan,184597763459
+Russain,770138436957
+Dev,1032571789646
+UAT,712890506319
+Thailand,1041543278972
+apimgmt,848400297599
+jira,585391347822
+Other,206347613553
+Zimbabwe,147766307675
+ore mine,256881599849
