@@ -16,6 +16,8 @@ following roles:
 - `roles/resourcemanager.organizationViewer` on the organization level
 - `roles/resourcemanager.folderViewer` on the organization level
 
+#### <b>Ref. https://cloud.google.com/iam/docs/understanding-roles#resource-manager-roles</b>
+
 ### Example Result from CSV File
 
 Folder_Name,Folder_ID</br>
