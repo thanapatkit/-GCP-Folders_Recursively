@@ -20,7 +20,7 @@ _reference: <https://cloud.google.com/iam/docs/understanding-roles#resource-mana
 
 ### Example Result from CSV File
 ```
-Folder_Name,Folder_ID</br>
-[ORGANIZATION_NAME],[ORGANIZATION_ID]</br>
+Folder_Name,Folder_ID
+[ORGANIZATION_NAME],[ORGANIZATION_ID]
 [FOLDER_NAME],[FOLDER_ID]
 ```
