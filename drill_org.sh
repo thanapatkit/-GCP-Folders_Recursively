@@ -34,9 +34,9 @@ folders()
 }
 
 # Start at the Org
-echo "Organization: [ORGANIZATION_NAME],${ORGANIZATION_ID}"
-
-folder_name="[ORGANIZATION_NAME]"
+ORGANIZATION_NAME=$(gcloud organizations describe ${ORGANIZATION_ID} --format='value(displayName)')
+echo "Organization: ${ORGANIZATION_NAME},${ORGANIZATION_ID}"
+folder_name=${ORGANIZATION_NAME}
 folder_id=${ORGANIZATION_ID}
 echo $folder_name,$folder_id >> $PWD/list_folders.csv
 
