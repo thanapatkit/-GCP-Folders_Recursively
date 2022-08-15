@@ -5,8 +5,9 @@
 
 ## Features
 
-1. Drill structure hierarchy of Organization or Folders(Department).
-2. Export as csv file.
+1. Drill all structure hierarchy under Organization.
+2. Printing the Organization/Folder name and ID
+3. Export as csv file.
 
 ## Least Privilege
 
@@ -23,4 +24,7 @@ _reference: <https://cloud.google.com/iam/docs/understanding-roles#resource-mana
 Folder_Name,Folder_ID
 [ORGANIZATION_NAME],[ORGANIZATION_ID]
 [FOLDER_NAME],[FOLDER_ID]
+[PROJECT_ID],[PROJECT_NUMBER]
 ```
+
+# Updated 8/15/2022 
